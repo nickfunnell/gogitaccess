@@ -9,22 +9,6 @@ import (
 	"time"
 )
 
-//
-//func main() {
-//    repo, err := git.OpenRepository("/Users/nick/work/src/github.com/nickfunnell/testrepo")
-//    repo.NewBranchIterator()
-//    //fmt.Println(repo.)
-//    if err != nil {
-//        fmt.Fprintln(os.Stderr, err)
-//        os.Exit(1)
-//    }
-//
-//    if repo.IsBare() {
-//        fmt.Println("Yep, it's bare.")
-//    } else {
-//        fmt.Println("Nope. Not a bare repo.")
-//    }
-//}
 type GitRepo struct {
 	RepoLocation string
 }
